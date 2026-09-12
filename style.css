@@ -1,7 +1,37 @@
 body {
     height: 300vh;
+    margin: 0;
 }
 
 * {
     font-family: roboto;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.header ul, .header li {
+    list-style-type: none;
+    display: inline-flex;
+    padding-inline: 15px;
+}
+
+.header-left {
+    font-size: 24px;
+    color: #f9faf8;
+    margin-left: 250px
+}
+
+.header-right {
+    margin-right: 250px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
 }
